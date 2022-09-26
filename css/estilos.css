@@ -4,6 +4,7 @@ body{
 }
 
 
+
 .imagen-logo{
 	max-width: 30px;
 	max-height: 30px;
@@ -17,10 +18,15 @@ body{
 	
 	
 }
-.container, .otrodiv {
+.container, .otrodiv,footer{
 	width: 50%;
 	border: 2px solid #000;
 	margin: 0 auto;
+}
+
+
+footer{
+	background: blue;
 }
 .cabecera {
 	background: blue;
@@ -49,4 +55,10 @@ span{
 	color: blue;
 	text-align: left;
 	margin-left: 10px;
+}
+
+.footer-texto{
+	font-size: 20px;
+	color: #fff;
+	
 }
